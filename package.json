@@ -1,9 +1,8 @@
 {
   "name": "@josuaseibold/component-library",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "type": "module",
 	"files": ["dist"],
-	"module": "./dist/component-library.js",
 	"repository": "https://github.com/JosuaSeibold/component-library",
 	"exports": {
 		".": {
