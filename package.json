@@ -1,10 +1,9 @@
 {
   "name": "@josuaseibold/component-library",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "type": "module",
 	"files": ["dist"],
 	"main": "./dist/component-library.umd.cjs",
-	"module": "./dist/component-library.js",
 	"repository": "https://github.com/JosuaSeibold/component-library",
 	"exports": {
 		".": {
