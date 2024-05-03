@@ -1,0 +1,32 @@
+{
+  "name": "component-library",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+	"files": ["dist"],
+	"main": "./dist/component-library.umd.cjs",
+	"module": "./dist/component-library.js",
+	"exports": {
+		".": {
+			"import": "./dist/component-library.js",
+			"require": "./dist/component-library.umd.cjs"
+		},
+		"./style.css": "./dist/style.css"
+	},
+	"publishConfig": {
+		"josuaseibold:registry": "https://npm.pkg.github.com"
+	},
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+		"types": "vue-tsc",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.4.21"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "vite": "^5.2.0"
+  }
+}
